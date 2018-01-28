@@ -8,11 +8,11 @@ import './index.scss'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Bogusia & Kamil"
+      title="Bogusia & Kamil Wojtczyk"
       meta={[
         {
           name: 'description',
-          content: 'We are getting married! Here is some more information about the event.'
+          content: 'We are getting married! Here is some more information about our wedding.'
         },
         { name: 'keywords', content: 'Bogusia, Bogumiła, Kamil, Wojtczyk, wedding, wedding site' }
       ]}

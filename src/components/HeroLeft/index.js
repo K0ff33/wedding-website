@@ -7,7 +7,7 @@ const HeroLeft = () => (
     <div className="hero-body">
       <div className="container">
         <h1 className="title">Bogusia & Kamil</h1>
-        <h2 className="subtitle">Full Height subtitle</h2>
+        <h2 className="subtitle">Some welcome text</h2>
       </div>
     </div>
   </section>

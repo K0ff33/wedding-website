@@ -1,12 +1,10 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Our wedding website
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+This repo contains the source code behind [our wedding website](https://bogusiaikamil.wojtczyk.net).
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+WIP.
+
+[Built with Gatsby](https://www.gatsbyjs.org).
 
 ## Deploy
 
