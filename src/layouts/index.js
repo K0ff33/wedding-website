@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import BigImage from '../components/BigImage'
+import HeroLeft from '../components/HeroLeft'
 import './index.scss'
 
 const TemplateWrapper = ({ children }) => (
@@ -17,7 +17,7 @@ const TemplateWrapper = ({ children }) => (
     <div className="container-fluid">
       <div className="columns">
         <div className="column is-three-fifths">
-          <BigImage />
+          <HeroLeft />
         </div>
         <div className="column">{children()}</div>
       </div>
