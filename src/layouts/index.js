@@ -8,14 +8,17 @@ import './index.scss'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Bogusia & Kamil - wedding page"
+      title="Bogusia & Kamil"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' }
+        {
+          name: 'description',
+          content: 'We are getting married! Here is some more information about the event.'
+        },
+        { name: 'keywords', content: 'Bogusia, Bogumiła, Kamil, Wojtczyk, wedding, wedding site' }
       ]}
     />
     <div className="container-fluid">
-      <div className="columns">
+      <div className="columns is-gapless">
         <div className="column is-three-fifths">
           <HeroLeft />
         </div>

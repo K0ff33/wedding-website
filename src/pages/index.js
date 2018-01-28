@@ -1,12 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import HeroRight from '../components/HeroRight'
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/pl/">Go to page 2</Link>
+    <HeroRight />
+    <p>some text</p>
   </div>
 )
 
