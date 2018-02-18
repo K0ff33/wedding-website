@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import HeroLeft from '../components/HeroLeft'
+import Menu from '../components/Menu'
 import './index.scss'
 
 const TemplateWrapper = ({ children }) => (
@@ -18,6 +19,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <div className="container-fluid">
+      <Menu />
       <div className="columns is-gapless">
         <div className="column is-three-fifths">
           <HeroLeft />
