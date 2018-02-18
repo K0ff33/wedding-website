@@ -14,3 +14,11 @@
     max-height: 40px;
   }
 }
+
+.navbar-menu.custom {
+  &.is-active {
+    @include desktop {
+      float: right;
+    }
+  }
+}

@@ -40,9 +40,7 @@ export default class Menu extends React.Component {
             <div
               id="navbarMenuHeroB"
               className={
-                this.state.isActive
-                  ? 'navbar-menu custom is-active is-pulled-right'
-                  : 'navbar-menu custom'
+                this.state.isActive ? 'navbar-menu custom is-active' : 'navbar-menu custom'
               }
             >
               <div className="navbar-end">

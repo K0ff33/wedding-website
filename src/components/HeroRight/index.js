@@ -11,6 +11,7 @@ const HeroRight = () => (
       justifyContent: 'center',
       alignItems: 'center'
     }}
+    id="top"
   >
     <h2 className="subtitle is-size-4">
       <a href="https://goo.gl/maps/yAxX61ECyeC2" target="_blank" style={{ color: 'inherit' }}>
