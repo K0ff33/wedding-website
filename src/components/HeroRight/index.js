@@ -9,7 +9,9 @@ const HeroRight = () => (
       backgroundRepeat: 'no-repeat'
     }}
   >
-    <h2>Łódź</h2>
+    <div className="has-text-centered">
+      <h2 className="subtitle">Łódź</h2>
+    </div>
   </section>
 )
 

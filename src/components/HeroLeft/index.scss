@@ -1,9 +1,15 @@
 @import '~bulma/sass/utilities/mixins';
-
 @include tablet {
   .left-fixed {
     overflow: hidden;
     position: fixed;
     width: inherit;
   }
+}
+
+.hero.photo {
+  background-image: url('/img/hero_photo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
