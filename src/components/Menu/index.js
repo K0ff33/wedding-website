@@ -1,4 +1,5 @@
 import React from 'react'
+import Scrollspy from 'react-scrollspy'
 
 import './index.scss'
 
@@ -44,9 +45,14 @@ export default class Menu extends React.Component {
               }
             >
               <div className="navbar-end">
-                <a className="navbar-item is-active">Home</a>
-                <a className="navbar-item">Examples</a>
-                <a className="navbar-item">Documentation</a>
+                <Scrollspy items={['top', 'schedule']} currentClassName="is-active">
+                  <a className="navbar-item" href="#top" onClick={this.onClick}>
+                    Home
+                  </a>
+                  <a className="navbar-item" href="#schedule" onClick={this.onClick}>
+                    Schedule
+                  </a>
+                </Scrollspy>
               </div>
             </div>
           </div>
