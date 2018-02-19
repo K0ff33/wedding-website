@@ -12,8 +12,10 @@
     "gatsby-plugin-offline": "^1.0.13",
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-sass": "^1.0.16",
+    "react-google-maps": "^9.4.5",
     "react-helmet": "^5.2.0",
-    "react-scrollspy": "^3.3.5"
+    "react-scrollspy": "^3.3.5",
+    "recompose": "^0.26.0"
   },
   "scripts": {
     "build": "gatsby build",
