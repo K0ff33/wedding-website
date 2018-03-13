@@ -5,8 +5,9 @@ const HeroRight = () => (
   <section
     className="hero is-fullheight"
     style={{
-      backgroundImage: 'url(/img/leafs.png)',
+      backgroundImage: 'url(/img/FrmtWhitePanel.jpg)',
       backgroundSize: 'cover',
+      backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
       justifyContent: 'center',
       alignItems: 'center'
