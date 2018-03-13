@@ -24,7 +24,7 @@ export default class Menu extends React.Component {
           <div className="container">
             <div className="navbar-brand">
               <a className="navbar-item" href="#top">
-                <img src="/img/wojtczyk_logo_small.png" alt="Wojtczyk Logo" />
+                {/* <img src="/img/bk_small.png" alt="Wojtczyk Logo" /> */}
               </a>
               <span
                 className={
