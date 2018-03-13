@@ -9,8 +9,8 @@ const events = [
     address: {
       name: 'Registry Office, Pabianicka 2, Łódź',
       link: 'https://goo.gl/maps/JH9gs6QSYDN2',
-      lat: 51.737931,
-      lng: 19.463201
+      lat: 51.737941,
+      lng: 19.4632585
     },
     calendarLink:
       "https://calendar.google.com/calendar/r/eventedit?dates=20180512T153000Z/20180512T160000Z&ctz=Europe%2FWarsaw&location=Registry+Office,+Pabianicka,+%C5%81%C3%B3d%C5%BA,+Poland&text=Bogusia+%26+Kamil's+Wedding+Ceremony&details=We%27re+getting+married!+Please+come+at+least+4.15pm+"
