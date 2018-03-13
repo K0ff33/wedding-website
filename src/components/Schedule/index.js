@@ -37,15 +37,15 @@ const Event = props => (
       <div className="column">
         <p className="has-text-right">{props.time}</p>
       </div>
-      <div className="column is-three-fifths">
+      <div className="column is-three-fifths-tablet is-two-thirds-mobile">
         <p>{props.title}</p>
-        <p>
-          <a href={props.address.link} target="_blank">
+        <p style={{ margin: '0.5rem 0' }}>
+          <a href={props.address.link} target="_blank" style={{ fontSize: '0.95rem' }}>
             {props.address.name}
           </a>
         </p>
-        <p>{props.text}</p>
-        <a href={props.calendarLink} target="_blank">
+        <p className="has-text-justified">{props.text}</p>
+        <a href={props.calendarLink} target="_blank" style={{ fontSize: '0.85rem' }}>
           Add to calendar
         </a>
       </div>
@@ -63,7 +63,7 @@ const Event = props => (
 )
 
 const Schedule = () => (
-  <section style={{ padding: '60px' }} id="schedule">
+  <section className="middle-section" id="schedule">
     <h3 className="subtitle is-size-5 has-text-centered">Schedule</h3>
     {events.map((el, i) => <Event {...el} key={i} />)}
   </section>
