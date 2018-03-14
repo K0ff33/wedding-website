@@ -37,7 +37,7 @@ const Event = props => (
       <div className="column">
         <p className="has-text-right">{props.time}</p>
       </div>
-      <div className="column is-three-fifths-tablet is-two-thirds-mobile">
+      <div className="column is-two-thirds">
         <p>{props.title}</p>
         <p style={{ margin: '0.5rem 0' }}>
           <a href={props.address.link} target="_blank" style={{ fontSize: '0.95rem' }}>
