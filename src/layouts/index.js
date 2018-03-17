@@ -13,7 +13,7 @@ const TemplateWrapper = ({ children }) => (
     <div className="container-fluid" id="top">
       <div className="columns is-gapless">
         <div className="column">{children()}</div>
-        <div className="column is-three-fifths">
+        <div className="column is-three-fifths is-hidden-mobile">
           <FullSizePhoto />
         </div>
       </div>
