@@ -8,9 +8,9 @@ import './index.scss'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <div className="container-fluid">
-      <Header />
-      <Menu />
+    <Header />
+    <Menu />
+    <div className="container-fluid" id="top">
       <div className="columns is-gapless">
         <div className="column">{children()}</div>
         <div className="column is-three-fifths">

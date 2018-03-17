@@ -1,17 +1,28 @@
 @import '~bulma/sass/utilities/mixins';
 
-.navbar.navbar-custom {
+.navbar.custom {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
-  background: none;
+
+  @include desktop {
+    position: absolute !important;
+    background: none;
+    margin-left: 2rem;
+  }
 
   .navbar-item > img {
-    height: 40px;
-    width: 40px;
-    max-height: 40px;
+    max-height: 9vw;
+  }
+
+  .navbar-item,
+  .navbar-link {
+    color: #787c80;
+
+    &:hover {
+      color: #363636;
+    }
   }
 }
 

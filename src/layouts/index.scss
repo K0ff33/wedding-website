@@ -1,5 +1,5 @@
-$variable-columns: false;
-$desktop: 1600px;
+// $variable-columns: false;
+// $desktop: 1600px;
 @import '~bulma/bulma';
 
 .middle-section {
@@ -19,4 +19,13 @@ $desktop: 1600px;
 
 a {
   color: #787c80;
+  &.hover {
+    color: #363636;
+  }
+}
+
+@include mobile {
+  h3 {
+    margin-top: 0.5rem; // hack for fixed navbar on mobile
+  }
 }
