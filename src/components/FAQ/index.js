@@ -109,7 +109,7 @@ const QandA = props => (
 
 const FAQ = () => (
   <section className="middle-section" id="qa">
-    <h3 className="subtitle is-size-5 has-text-centered">Q & A</h3>
+    <h3 className="title is-size-5 has-text-centered">Q & A</h3>
     <p className="has-text-centered">
       For all our friends and family who have lots of questions, please check out our FAQ first!
     </p>

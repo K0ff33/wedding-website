@@ -64,7 +64,7 @@ const Event = props => (
 
 const Schedule = () => (
   <section className="middle-section" id="schedule">
-    <h3 className="subtitle is-size-5 has-text-centered">Schedule</h3>
+    <h3 className="title is-size-5 has-text-centered">Schedule</h3>
     {events.map((el, i) => <Event {...el} key={i} />)}
   </section>
 )
