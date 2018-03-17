@@ -5,7 +5,12 @@ const events = [
   {
     title: 'Wedding Ceremony',
     time: '4.30pm',
-    text: "We're getting married! Please come at least at 4.15pm",
+    text: (
+      <div>
+        <p>We're getting married!</p>
+        <p>Please come at least at 4.15pm</p>
+      </div>
+    ),
     address: {
       name: 'Registry Office, Pabianicka 2, Łódź',
       link: 'https://goo.gl/maps/JH9gs6QSYDN2',
@@ -18,8 +23,13 @@ const events = [
   {
     title: 'Wedding Reception',
     time: '5.30pm',
-    text:
-      "It's party time! We encourage everyone to grab some drinks and get out on the dance floor. Don't be shy. We're all family and friends.",
+    text: (
+      <div>
+        <p>It's party time!</p>
+        <p>We encourage everyone to grab some drinks and get out on the dance floor.</p>
+        <p>Don't be shy. We're all family and friends.</p>
+      </div>
+    ),
     address: {
       name: 'Format, Tymienieckiego 3, Łódź',
       link: 'https://goo.gl/maps/EbnrVMVeVnK2',
@@ -44,7 +54,7 @@ const Event = props => (
             {props.address.name}
           </a>
         </p>
-        <p className="has-text-justified">{props.text}</p>
+        <p>{props.text}</p>
         <a href={props.calendarLink} target="_blank" style={{ fontSize: '0.85rem' }}>
           Add to calendar
         </a>
