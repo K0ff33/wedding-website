@@ -1,0 +1,26 @@
+.qa-wrapper {
+  margin-top: 2rem;
+  padding: 0 1rem;
+
+  .question {
+    margin-bottom: 7px;
+    padding-left: 30px;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+
+    > span {
+      position: absolute;
+      left: 0;
+      font-weight: 600;
+    }
+  }
+
+  .answer {
+    padding-left: 30px;
+    word-wrap: break-word;
+    margin-top: 5px;
+    color: #606060;
+    font-size: 0.94rem;
+  }
+}

@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './index.scss'
+
 const questionsAnswers = [
   {
     q: 'When is the RSVP deadline?',
@@ -87,23 +89,11 @@ const questionsAnswers = [
 ]
 
 const QandA = props => (
-  <div style={{ marginTop: '2rem', padding: '0 1rem' }}>
-    <div
-      style={{
-        marginBottom: '7px',
-        paddingLeft: '30px',
-        position: 'relative',
-        lineHeight: '24px',
-        letterSpacing: '-0.2px'
-      }}
-    >
-      <strong style={{ position: 'absolute', left: 0 }}>Q:</strong> {props.q}
+  <div className="qa-wrapper">
+    <div className="question">
+      <span>Q:</span> {props.q}
     </div>
-    <div
-      style={{ paddingLeft: '30px', wordWrap: 'break-word', marginTop: '5px', color: '#606060' }}
-    >
-      {props.a}
-    </div>
+    <div className="answer">{props.a}</div>
   </div>
 )
 
