@@ -44,10 +44,10 @@ const TemplateWrapper = ({ children }) => (
     <div className="container-fluid">
       <Menu />
       <div className="columns is-gapless">
+        <div className="column">{children()}</div>
         <div className="column is-three-fifths">
           <FullSizePhoto />
         </div>
-        <div className="column">{children()}</div>
       </div>
     </div>
   </div>
