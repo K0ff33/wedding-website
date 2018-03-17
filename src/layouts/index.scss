@@ -2,6 +2,11 @@
 // $desktop: 1600px;
 @import '~bulma/bulma';
 
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
+
 .middle-section {
   padding: 2.5rem;
 

@@ -34,6 +34,7 @@ const Header = () => (
     <meta name="og:site_name" content="Bogusia & Kamil - Wedding Website" />
     <meta name="og:locale" content="en_UK" />
     <meta name="og:type" content="website" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />>
   </Helmet>
 )
 
