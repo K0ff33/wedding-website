@@ -1,5 +1,4 @@
 import React from 'react'
-import Scrollspy from 'react-scrollspy'
 
 import './index.scss'
 
@@ -55,13 +54,11 @@ export default class Menu extends React.Component {
 
         <div id="navbar" className={this.state.isActive ? 'navbar-menu is-active' : 'navbar-menu'}>
           <div className="navbar-start">
-            {/* <Scrollspy items={menuItems.map(e => e.name)} currentClassName="is-active"> */}
             {menuItems.map(item => (
               <a className="navbar-item" href={`#${item.href}`} onClick={this.onClick}>
                 {item.name}
               </a>
             ))}
-            {/* </Scrollspy> */}
           </div>
         </div>
       </nav>
