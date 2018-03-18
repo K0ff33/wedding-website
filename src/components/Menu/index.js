@@ -1,24 +1,12 @@
 import React from 'react'
+import { translate } from 'react-i18next'
 
 import LanguageSwitcher from '../LanguageSwitcher'
+import menuItems from '../../../static/locales/en/Menu.json'
+
 import './index.scss'
 
-const menuItems = [
-  {
-    name: 'Home',
-    href: 'top'
-  },
-  {
-    name: 'Schedule',
-    href: 'schedule'
-  },
-  {
-    name: 'Q&A',
-    href: 'qa'
-  }
-]
-
-export default class Menu extends React.Component {
+class Menu extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -33,6 +21,8 @@ export default class Menu extends React.Component {
   }
 
   render() {
+    const t = this.props.t
+
     return (
       <nav className="navbar is-fixed-top custom">
         <div className="navbar-brand">
@@ -55,14 +45,14 @@ export default class Menu extends React.Component {
 
         <div id="navbar" className={this.state.isActive ? 'navbar-menu is-active' : 'navbar-menu'}>
           <div className="navbar-start">
-            {menuItems.map(item => (
+            {menuItems.nav.map((item, index) => (
               <a
                 className="navbar-item"
                 href={`#${item.href}`}
                 key={item.name}
                 onClick={this.onClick}
               >
-                {item.name}
+                {t(`nav.${index}.name`)}
               </a>
             ))}
           </div>
@@ -75,3 +65,5 @@ export default class Menu extends React.Component {
     )
   }
 }
+
+export default translate('Menu')(Menu)

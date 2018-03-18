@@ -1,0 +1,16 @@
+{
+  "nav": [
+    {
+      "name": "Welcome",
+      "href": "top"
+    },
+    {
+      "name": "Schedule",
+      "href": "schedule"
+    },
+    {
+      "name": "Q&A",
+      "href": "qa"
+    }
+  ]
+}

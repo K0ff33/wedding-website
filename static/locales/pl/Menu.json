@@ -1,0 +1,16 @@
+{
+  "nav": [
+    {
+      "name": "Witamy",
+      "href": "top"
+    },
+    {
+      "name": "Harmonogram",
+      "href": "schedule"
+    },
+    {
+      "name": "Pytania",
+      "href": "qa"
+    }
+  ]
+}
