@@ -1,0 +1,15 @@
+@import '~bulma/sass/utilities/mixins';
+
+.flag {
+  border: none;
+  background-color: transparent;
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  margin: 1rem;
+
+  @include tablet {
+    margin: 1rem 0.5rem;
+  }
+}
