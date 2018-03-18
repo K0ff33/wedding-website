@@ -2,6 +2,7 @@
 
 import React from 'react'
 import distanceInWordsToNow from 'date-fns/distance_in_words_to_now'
+import plLocale from 'date-fns/locale/pl'
 
 export default class Timer extends React.Component {
   constructor(props) {
@@ -22,10 +23,22 @@ export default class Timer extends React.Component {
   }
 
   tick = () => {
-    this.setState({ left: distanceInWordsToNow(this.props.until, { includeSeconds: true }) })
+    if (this.props.lang === 'pl') {
+      this.setState({
+        left: distanceInWordsToNow(this.props.until, { includeSeconds: true, locale: plLocale })
+      })
+    } else {
+      this.setState({
+        left: distanceInWordsToNow(this.props.until, { includeSeconds: true })
+      })
+    }
   }
 
   render() {
-    return <h4 className="subtitle is-size-5">👰🏻🤵🏻 in {this.state.left}!</h4>
+    return (
+      <h4 className="subtitle is-size-5">
+        👰🏻🤵🏻 {this.props.lang === 'pl' ? 'za' : 'in'} {this.state.left}!
+      </h4>
+    )
   }
 }

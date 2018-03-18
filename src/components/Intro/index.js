@@ -2,7 +2,7 @@ import React from 'react'
 import { translate } from 'react-i18next'
 import Timer from './timer'
 
-const Intro = props => (
+const Intro = ({ t, i18n }) => (
   <section
     className="hero is-fullheight"
     style={{
@@ -20,8 +20,8 @@ const Intro = props => (
       alt="Bogusia & Kamil"
       style={{ margin: '2rem', height: 'auto', width: '300px' }}
     />
-    <h3 className="subtitle is-size-5">{props.t('date')}</h3>
-    <Timer until={new Date(2018, 4, 12, 16, 30)} />
+    <h3 className="subtitle is-size-5">{t('date')}</h3>
+    <Timer until={new Date(2018, 4, 12, 16, 30)} lang={i18n.language} />
     <h4 className="subtitle is-size-6">❤️</h4>
   </section>
 )
