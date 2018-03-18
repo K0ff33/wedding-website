@@ -1,11 +1,11 @@
 import React from 'react'
-import Content from '../components/Content'
+import Intro from '../components/Intro'
 import Schedule from '../components/Schedule'
 import FAQ from '../components/FAQ'
 
 const IndexPage = () => (
   <div>
-    <Content />
+    <Intro />
     <Schedule />
     <FAQ />
   </div>

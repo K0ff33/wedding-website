@@ -1,7 +1,7 @@
 import React from 'react'
 import Timer from './timer'
 
-const Content = () => (
+const Intro = () => (
   <section
     className="hero is-fullheight"
     style={{
@@ -21,4 +21,4 @@ const Content = () => (
   </section>
 )
 
-export default Content
+export default Intro
