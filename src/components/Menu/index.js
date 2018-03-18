@@ -1,5 +1,6 @@
 import React from 'react'
 
+import LanguageSwitcher from '../LanguageSwitcher'
 import './index.scss'
 
 const menuItems = [
@@ -59,6 +60,10 @@ export default class Menu extends React.Component {
                 {item.name}
               </a>
             ))}
+          </div>
+
+          <div className="navbar-end">
+            <LanguageSwitcher />
           </div>
         </div>
       </nav>
