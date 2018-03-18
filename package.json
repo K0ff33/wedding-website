@@ -5,6 +5,7 @@
   "author": "Kamil Wojtczyk <k.wojtczyk@gmail.com>",
   "dependencies": {
     "bulma": "^0.6.2",
+    "classnames": "^2.2.5",
     "date-fns": "^1.29.0",
     "gatsby": "^1.9.236",
     "gatsby-link": "^1.6.39",
