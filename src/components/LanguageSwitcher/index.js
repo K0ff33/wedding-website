@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import classNames from 'classnames'
 import { translate } from 'react-i18next'
 
 class LanguageSwitcher extends Component {
@@ -21,12 +20,8 @@ class LanguageSwitcher extends Component {
   }
 
   renderLanguageChoice({ code, label }) {
-    const buttonClass = classNames('LanguageSwitcher__button', {
-      'LanguageSwitcher__button--selected': this.state.language === code
-    })
-
     return (
-      <button key={code} className={buttonClass} onClick={() => this.handleChangeLanguage(code)}>
+      <button key={code} onClick={() => this.handleChangeLanguage(code)}>
         {label}
       </button>
     )
