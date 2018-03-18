@@ -1,0 +1,33 @@
+{
+  "title": "Harmonogram",
+  "calendar": "Dodaj do kalendarza",
+  "events": [
+    {
+      "title": "Uroczystość zaślubin",
+      "time": "16.30",
+      "text": "<p>Pobieramy się!</p><p>Prosimy o przybycie co najmniej o 16:15</p></div>",
+      "address": {
+        "name": "Urząd Stanu Cywilnego, ul. Pabianicka 2, Łódź",
+        "link": "https://goo.gl/maps/JH9gs6QSYDN2",
+        "lat": 51.737941,
+        "lng": 19.4632585
+      },
+      "calendarLink":
+        "https://calendar.google.com/calendar/r/eventedit?dates=20180512T153000Z/20180512T160000Z&ctz=Europe%2FWarsaw&location=Registry+Office,+Pabianicka,+%C5%81%C3%B3d%C5%BA,+Poland&text=Bogusia+%26+Kamil's+Wedding+Ceremony&details=We%27re+getting+married!+Please+come+at+least+4.15pm+"
+    },
+    {
+      "title": "Wesele",
+      "time": "17:30",
+      "text":
+        "<p>Czas się zabawić!</p><p>Wypijcie nasze zdrowie i bawcie się na parkiecie razem z nami!</p><p>Nie wstydźcie się!</p><p>Jesteśmy w towarzystwie rodziny i przyjaciół 🙂.</p>",
+      "address": {
+        "name": "Format, ul. Tymienieckiego 3, Łódź",
+        "link": "https://goo.gl/maps/EbnrVMVeVnK2",
+        "lat": 51.7483251,
+        "lng": 19.4620527
+      },
+      "calendarLink":
+        "https://calendar.google.com/calendar/r/eventedit?dates=20180512T163000Z/20180513T010000Z&ctz=Europe%2FWarsaw&location=Format,+%C5%81%C3%B3d%C5%BA,+Poland&text=Bogusia+%26+Kamil's+Wedding+Reception"
+    }
+  ]
+}
