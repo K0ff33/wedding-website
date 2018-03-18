@@ -1,0 +1,47 @@
+{
+  "title": "Pytania",
+  "subtitle": "Poniżej zamieszczamy odpowiedzi na najczęściej zadawane pytania.",
+  "questionsAnswers": [
+    { "q": "Do kiedy należy potwierdzić obecność?", "a": "Do 20 kwietnia 2018" },
+    { "q": "Czy mogę przyjść z osobą towarzyszącą?", "a": "Tak" },
+    { "q": "O której godzinie powinniśmy przybyć do USC?", "a": "16:15" },
+    {
+      "q": "Z kim mamy skontaktować się w razie pytań?",
+      "a":
+        "<div><p>Bogusia: <a href=\"tel:+447393999734\">+44 7393 999734</a></p><p>Kamil: <a href=\"tel:+447472035403\">+44 7472 035403</a></p><p>Telefon stacjonarny: <a href=\"tel:+48422797150\">+48 42 279 71 50</a></p></div>"
+    },
+    {
+      "q": "Gdzie należy zaparkować?",
+      "a":
+        "<span><p>Przed ceremonią zaślubin prosimy o zaparkowanie przed USC na <a href=\"https://goo.gl/maps/jtu948pnGou\" target=\"blank\">ulicy Doroty</a>.</p><p>Klubokawiarnia Format posiada swój własny parking <a href=\"https://goo.gl/maps/2NpXg3X9dpL2\" target=\"blank\">na terenie obiektu</a></p></span>"
+    },
+    {
+      "q": "Czy parking jest płatny?",
+      "a": "Parking jest bezpłatny"
+    },
+    {
+      "q": "Czy zapewniamy transport pomiędzy USC a Formatem?",
+      "a":
+        "<span><p>Nie, jeśli nie posiadacie własnego transportu, polecamy skorzystanie z tramwaju nr 6 lub 11B z przystanku <a href=\"https://goo.gl/maps/VxTUKxVedc42\" target=\"blank\">Piotrkowska/pl. Katedralny</a> do <a href=\"https://goo.gl/maps/SAad6LhLCLF2\" target=\"blank\">Piotrkowska/pl. Niepodległości</a>, spacer lub wynajęcie taksówki.</p><p> Podróż powinna zająć około 15 minut</p></span>"
+    },
+    {
+      "q": "Czy jest przewidziana przerwa między ceremonią a imprezą?",
+      "a": "Impreza zaczyna się zaraz po ceremonii"
+    },
+    { "q": "Czy impreza odbędzie się w budynku czy na powietrzu?", "a": "W budynku" },
+    { "q": "Czy będą serwowane posiłki?", "a": "Tak, mamy nadzieję że będą wam smakować!" },
+    {
+      "q": "Czy na imprezie przewidziany jest alkohol?",
+      "a":
+        "Do dyspozycji gości będzie otwarty bar, gdzie będziecie mogli posmakować przepysznych drinków, szkockiej whisky i regionalnego piwa"
+    },
+    {
+      "q": "Czy powinnam powiadomić Was jeśli jestem na specjalnej diecie?",
+      "a": "Tak"
+    },
+    {
+      "q": "Co mogę zrobić aby para młoda było zadowolona?",
+      "a": "Uśmiechać się, rozmawiać, tańczyć i dobrze się bawić! &#x1F601;"
+    }
+  ]
+}
