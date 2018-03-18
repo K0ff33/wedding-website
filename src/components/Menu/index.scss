@@ -18,10 +18,10 @@
 
   .navbar-item,
   .navbar-link {
-    color: #787c80;
+    color: var(gray);
 
     &:hover {
-      color: #363636;
+      color: var(dark-gray);
     }
   }
 }

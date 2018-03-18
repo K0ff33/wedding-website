@@ -8,6 +8,7 @@
     position: relative;
     line-height: 24px;
     letter-spacing: -0.2px;
+    font-weight: 600;
 
     > span {
       position: absolute;
@@ -20,7 +21,7 @@
     padding-left: 30px;
     word-wrap: break-word;
     margin-top: 5px;
-    color: #606060;
+    color: var(dark-gray);
     font-size: 0.94rem;
   }
 }

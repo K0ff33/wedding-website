@@ -2,6 +2,12 @@
 // $desktop: 1600px;
 @import '~bulma/bulma';
 
+:root {
+  --light-gray: #e8e8e8;
+  --gray: #787c80;
+  --dark-gray: #606060;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
@@ -9,23 +15,27 @@ body {
 
 .middle-section {
   padding: 2.5rem;
+  position: relative;
 
-  // &::after {
-  //   content: '';
-  //   height: 10px;
-  //   background-color: #e8e8e8;
-  //   position: absolute;
-  //   bottom: 1px;
-  //   left: 0;
-  //   right: 0;
-  //   margin: 0 auto;
-  // }
+  &:after {
+    content: '';
+    height: 1px;
+    background-color: var(--light-gray);
+    position: absolute;
+    bottom: 1px;
+    width: 90%;
+    left: 5%;
+    right: 0;
+  }
+  &:last-child:after {
+    height: 0;
+  }
 }
 
 a {
-  color: #787c80;
+  color: var(--gray);
   &.hover {
-    color: #363636;
+    color: var(--dark-gray);
   }
 }
 

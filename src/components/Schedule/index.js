@@ -45,10 +45,12 @@ const Event = props => (
   <div>
     <div className="columns is-mobile">
       <div className="column">
-        <p className="has-text-right">{props.time}</p>
+        <p className="has-text-right" style={{ fontWeight: 600 }}>
+          {props.time}
+        </p>
       </div>
       <div className="column is-two-thirds">
-        <p>{props.title}</p>
+        <p style={{ fontWeight: 600 }}>{props.title}</p>
         <p style={{ margin: '0.5rem 0' }}>
           <a href={props.address.link} target="_blank" style={{ fontSize: '0.95rem' }}>
             {props.address.name}
@@ -74,7 +76,7 @@ const Event = props => (
 
 const Schedule = () => (
   <section className="middle-section" id="schedule">
-    <h3 className="title is-size-5 has-text-centered">Schedule</h3>
+    <h3 className="title is-size-4 has-text-centered">Schedule</h3>
     {events.map((el, i) => <Event {...el} key={i} />)}
   </section>
 )
