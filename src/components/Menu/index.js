@@ -56,7 +56,12 @@ export default class Menu extends React.Component {
         <div id="navbar" className={this.state.isActive ? 'navbar-menu is-active' : 'navbar-menu'}>
           <div className="navbar-start">
             {menuItems.map(item => (
-              <a className="navbar-item" href={`#${item.href}`} onClick={this.onClick}>
+              <a
+                className="navbar-item"
+                href={`#${item.href}`}
+                key={item.name}
+                onClick={this.onClick}
+              >
                 {item.name}
               </a>
             ))}
