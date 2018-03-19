@@ -11,6 +11,10 @@
     {
       "name": "Pytania",
       "href": "qa"
+    },
+    {
+      "name": "Lista Prezentów",
+      "href": "wishlist"
     }
   ]
 }
