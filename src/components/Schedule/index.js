@@ -2,8 +2,10 @@ import React from 'react'
 import { translate } from 'react-i18next'
 
 import Map from './map'
+import MapWithDirections from './directions'
 
 import { events } from '../../../static/locales/en/Schedule.json'
+import './index.scss'
 
 const Event = props => (
   <div>
@@ -15,25 +17,26 @@ const Event = props => (
       </div>
       <div className="column is-two-thirds">
         <p style={{ fontWeight: 600 }}>{props.t(`events.${props.i}.title`)}</p>
-        <p style={{ margin: '0.5rem 0' }}>
-          <a href={props.address.link} target="_blank" style={{ fontSize: '0.95rem' }}>
-            {props.t(`events.${props.i}.address.name`)}
-          </a>
-        </p>
+        {props.address && (
+          <p style={{ margin: '0.5rem 0' }}>
+            <a href={props.address.link} target="_blank" style={{ fontSize: '0.95rem' }}>
+              {props.t(`events.${props.i}.address.name`)}
+            </a>
+          </p>
+        )}
         <div dangerouslySetInnerHTML={{ __html: props.t(`events.${props.i}.text`) }} />
-        <a href={props.calendarLink} target="_blank" style={{ fontSize: '0.85rem' }}>
-          {props.t('calendar')}
-        </a>
+        {props.calendarLink && (
+          <a href={props.calendarLink} target="_blank" style={{ fontSize: '0.85rem' }}>
+            {props.t('calendar')}
+          </a>
+        )}
       </div>
     </div>
-    <div
-      style={{
-        display: 'block',
-        padding: '50px 0',
-        marginTop: '-15px'
-      }}
-    >
-      <Map isMarkerShown lat={props.address.lat} lng={props.address.lng} />
+    <div className="map">
+      {props.directions == null && (
+        <Map isMarkerShown lat={props.address.lat} lng={props.address.lng} />
+      )}
+      {props.directions && <MapWithDirections />}
     </div>
   </div>
 )

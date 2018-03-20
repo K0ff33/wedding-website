@@ -16,6 +16,13 @@
         "https://calendar.google.com/calendar/r/eventedit?dates=20180512T153000Z/20180512T160000Z&ctz=Europe%2FWarsaw&location=Registry+Office,+Pabianicka,+%C5%81%C3%B3d%C5%BA,+Poland&text=Bogusia+%26+Kamil's+Wedding+Ceremony&details=We%27re+getting+married!+Please+come+at+least+4.15pm+"
     },
     {
+      "title": "Czas na spacer!",
+      "time": "17:00-17:30",
+      "text":
+        "<p>Polecamy skorzystanie z tramwaju nr 6 lub 11B z przystanku <a href=\"https://goo.gl/maps/VxTUKxVedc42\" target=\"blank\">Piotrkowska/pl. Katedralny</a> do <a href=\"https://goo.gl/maps/SAad6LhLCLF2\" target=\"blank\">Piotrkowska/pl. Niepodległości</a>, spacer lub wynajęcie taksówki.</p><p> Podróż powinna zająć około 15 minut</p></span>",
+      "directions": true
+    },
+    {
       "title": "Wesele",
       "time": "17:30",
       "text":
