@@ -3,6 +3,7 @@ import Intro from '../components/Intro'
 import Schedule from '../components/Schedule'
 import FAQ from '../components/FAQ'
 import WishList from '../components/WishList'
+import City from '../components/City'
 
 const IndexPage = () => (
   <div>
@@ -10,6 +11,7 @@ const IndexPage = () => (
     <Schedule />
     <FAQ />
     <WishList />
+    <City />
   </div>
 )
 

@@ -1,0 +1,143 @@
+{
+  "title": "Łódź",
+  "subtitle":
+    "Wierzymy, że w dobie internetu każdy z Was szybko znajdzie miejsca, które chce zobaczyć w Łodzi. Poniżej zamieszamy listę miejsc, które sami odwiedziliśmy i sami do nich wracamy",
+  "cafes": {
+    "name": "Kawiarnie",
+    "places": [
+      {
+        "name": "Tubajka",
+        "url": "https://www.facebook.com/Tubajka/"
+      },
+      {
+        "name": "Owoce i Warzywa",
+        "url": "https://www.facebook.com/owoceiwarzywa/"
+      },
+      {
+        "name": "Cafe Przy Ulicy",
+        "url": "https://www.facebook.com/caffeprzyulicy/"
+      },
+      {
+        "name": "Niebostan",
+        "url": "https://www.facebook.com/niebostan/"
+      },
+      {
+        "name": "Pijalnia Czekolady E.Wedel",
+        "url": "https://www.wedelpijalnie.pl/en/"
+      },
+      {
+        "name": "Wiosna",
+        "url": "https://www.facebook.com/wiosna.klubokawiarnia/"
+      }
+    ]
+  },
+  "restaurants": {
+    "name": "Restauracje",
+    "places": [
+      {
+        "name": "Ato Ramen",
+        "url": "https://www.facebook.com/ato-ramen-1443744215649304/"
+      },
+      {
+        "name": "Anatewka",
+        "url": "https://www.facebook.com/Restauracja-Anatewka-189844281067393/"
+      },
+      {
+        "name": "Manekin",
+        "url": "https://www.facebook.com/NalesnikarniaManekin/"
+      },
+      {
+        "name": "Drukarnia",
+        "url": "http://winoichleb.com/en/lodz-en/"
+      },
+      {
+        "name": "Spółdzielnia",
+        "url": "https://www.facebook.com/spoldzielnia.lodzka"
+      },
+      {
+        "name": "Lokal",
+        "url": "https://www.facebook.com/Lokallodz"
+      },
+      {
+        "name": "Farina Bianco",
+        "url": "https://www.facebook.com/farina.bianco/"
+      }
+    ]
+  },
+  "pubs": {
+    "name": "Puby",
+    "places": [
+      {
+        "name": "PiwPaw",
+        "url": "https://www.facebook.com/piwpawlodz/"
+      },
+      {
+        "name": "Chmielowa Dolina",
+        "url": "https://www.facebook.com/PubChmielowadolina/"
+      },
+      {
+        "name": "Brush",
+        "url": "https://www.facebook.com/BRUSH-BARBER-SHOP-1450453108578882/"
+      },
+      {
+        "name": "Spaleni Słońcem",
+        "url": "https://www.facebook.com/spalenisloncem"
+      },
+      {
+        "name": "Biblioteka",
+        "url": "https://www.facebook.com/pubbiblioteka/"
+      },
+      {
+        "name": "Bierhalle",
+        "url": "https://www.facebook.com/Bierhalle-Manufaktura-174313975935035/"
+      }
+    ]
+  },
+  "sights": {
+    "name": "Ciekawe miejsca",
+    "places": [
+      {
+        "name": "OFF Piotrkowska",
+        "url": "https://www.facebook.com/OFFPiotrkowska/"
+      },
+      {
+        "name": "Piotrkowska 217",
+        "url": "https://www.facebook.com/piotrkowska217/"
+      },
+      {
+        "name": "Planetarium EC1",
+        "url":
+          "https://pl.tripadvisor.com/Attraction_Review-g274837-d9807922-Reviews-Planetarium_EC1-Lodz_Lodz_Province_Central_Poland.html"
+      },
+      {
+        "name": "Muzeum Sztuki",
+        "url": "http://msl.org.pl"
+      },
+      {
+        "name": "Manufaktura",
+        "url":
+          "https://pl.tripadvisor.com/Attraction_Review-g274837-d1966302-Reviews-Manufaktura-Lodz_Lodz_Province_Central_Poland.html"
+      },
+      {
+        "name": "Muzeum Kinematografii",
+        "url":
+          "https://pl.tripadvisor.com/Attraction_Review-g274837-d285660-Reviews-The_Film_Museum-Lodz_Lodz_Province_Central_Poland.html"
+      },
+      {
+        "name": "Łódź Bajkowa",
+        "url":
+          "https://pl.tripadvisor.com/Attraction_Review-g274837-d12438056-Reviews-Lodz_Bajkowa-Lodz_Lodz_Province_Central_Poland.html"
+      },
+      {
+        "name": "Ogród Botaniczny",
+        "url":
+          "https://pl.tripadvisor.com/Attraction_Review-g274837-d2710742-Reviews-Ogrod_Botaniczny_w_Lodzi-Lodz_Lodz_Province_Central_Poland.html"
+      },
+      {
+        "name": "Muzeum Miasta Łodzi",
+        "url":
+          "https://pl.tripadvisor.com/Attraction_Review-g274837-d285668-Reviews-City_of_Lodz_History_Museum-Lodz_Lodz_Province_Central_Poland.html"
+      }
+    ]
+  }
+}
