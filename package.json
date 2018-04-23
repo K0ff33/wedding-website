@@ -7,19 +7,19 @@
     "bulma": "^0.6.2",
     "classnames": "^2.2.5",
     "date-fns": "^1.29.0",
-    "gatsby": "^1.9.236",
-    "gatsby-link": "^1.6.39",
+    "gatsby": "^1.9.253",
+    "gatsby-link": "^1.6.41",
     "gatsby-plugin-offline": "^1.0.15",
-    "gatsby-plugin-react-helmet": "^2.0.8",
-    "gatsby-plugin-sass": "^1.0.23",
-    "i18next": "^10.5.1",
-    "i18next-browser-languagedetector": "^2.1.0",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby-plugin-sass": "^1.0.26",
+    "i18next": "^10.6.0",
+    "i18next-browser-languagedetector": "^2.2.0",
     "i18next-chained-backend": "^0.1.2",
     "i18next-localstorage-backend": "^1.1.4",
     "i18next-xhr-backend": "^1.5.1",
     "react-google-maps": "^9.4.5",
     "react-helmet": "^5.2.0",
-    "react-i18next": "^7.5.0",
+    "react-i18next": "^7.6.0",
     "recompose": "^0.26.0"
   },
   "scripts": {
@@ -30,6 +30,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^1.11.1"
+    "prettier": "^1.12.1"
   }
 }
