@@ -5,16 +5,16 @@ import XHR from 'i18next-xhr-backend' // fallback xhr load
 import LanguageDetector from 'i18next-browser-languagedetector'
 import { reactI18nextModule } from 'react-i18next'
 
+const windowGlobal = typeof window !== 'undefined' && window
+const backends = windowGlobal ? [LocalStorageBackend, XHR] : [XHR]
+
 i18next
   .use(Backend)
   .use(LanguageDetector)
   .use(reactI18nextModule) // if not using I18nextProvider
   .init({
     backend: {
-      backends: [
-        LocalStorageBackend, // primary
-        XHR
-      ],
+      backends,
       backendOptions: [
         {
           // prefix for stored languages
