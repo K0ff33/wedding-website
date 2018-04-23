@@ -20,7 +20,7 @@ i18next
           // prefix for stored languages
           prefix: 'i18next_res_',
           // expiration
-          expirationTime: 4 * 7 * 24 * 60 * 60 * 1000,
+          expirationTime: Infinity,
           // language versions
           versions: {
             en: 'v1.0',
