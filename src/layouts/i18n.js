@@ -24,7 +24,7 @@ i18next
           // language versions
           versions: {
             en: 'v1.0',
-            pl: 'v1.0'
+            pl: 'v1.0.1'
           }
         },
         {
